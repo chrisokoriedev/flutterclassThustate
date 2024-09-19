@@ -78,28 +78,29 @@
 // }
    
 
-void main() {
+// void main() {
 
 
-  
-  String dayName = "Monday";
-  String day = "";
 
-  switch (dayName) {
-    case "Monday":
-    case "Tuesday":
-    case "Wednesday":
-    case "Thursday":
-    case "Friday":
-      day = "Weekday";
-      break;
-    case "Saturday":
-    case "Sunday":
-      day = "Weekend";
-      break;
-    default:
-      day = "Invalid";
-  }
+//   String dayName = "Monday";
+//   String day = "";
 
-  print(day);
-}
+//   switch (dayName) {
+//     case "Monday":
+//     case "Tuesday":
+//     case "Wednesday":
+//     case "Thursday":
+//     case "Friday":
+//       day = "Weekday";
+//       break;
+//     case "Saturday":
+//     case "Sunday":
+//       day = "Weekend";
+//       break;
+//     default:
+//       day = "Invalid";
+//   }
+
+//   print(day);
+// }
+
