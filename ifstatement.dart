@@ -76,9 +76,12 @@
 //   }
 //   print(dayName);
 // }
-
+   
 
 void main() {
+
+
+  
   String dayName = "Monday";
   String day = "";
 
