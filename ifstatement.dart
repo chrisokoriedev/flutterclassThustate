@@ -133,17 +133,29 @@
 //     }
 //   }
 // }
-void main() {
-  String message = 'Dart is awesome!';
-  int i = 0;
-  while (i < message.length) {
-    print(message[i]);
-    if (message[i] == 'a') {
-      print("The letter a was found at the index $i");
-      break;
-    }
-    i++;
-  }
-}
+// void main() {
+//   String message = 'Dart is awesome!';
+//   int i = 0;
+//   while (i < message.length) {
+//     print(message[i]);
+//     if (message[i] == 'a') {
+//       print("The letter a was found at the index $i");
+//       break;
+//     }
+//     i++;
+//   }
+// }
 
 
+// void main() {
+//   String message = 'Dart is awesome!';
+//   int i = 0;
+//   do {
+//     print(message[i]);
+//     if (message[i] == 'a') {
+//       print("The letter a was found at the index $i");
+//       break;
+//     }
+//     i++;
+//   } while (i < message.length);
+// }
