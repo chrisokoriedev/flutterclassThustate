@@ -1,8 +1,19 @@
+// void main() {
+//   greet('John');
+// }
+
+// void greet(String name) {
+//   print('Hello, $name!');
+// }
 void main() {
-  print('object');
-  print(greet('John'));
+  String name = 'John';
+  int age = 23;
+  var newage = ageAccount(name, age);
+  print(newage);
 }
 
-String greet(String name) {
-  return "Hello, $name!";
+//Function Signature
+ageAccount(String name, int age) {
+  //Function body
+  return ' $name is $age';
 }
