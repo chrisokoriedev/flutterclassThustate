@@ -34,6 +34,7 @@
 //     print(language[i]);
 //   }
 // }
+
 // void main() {
 //   int number = 0;
 //   do {
@@ -77,10 +78,7 @@
 //   print(dayName);
 // }
    
-
 // void main() {
-
-
 
 //   String dayName = "Monday";
 //   String day = "";
@@ -100,10 +98,8 @@
 //     default:
 //       day = "Invalid";
 //   }
-
 //   print(day);
 // }
-// 
 
 // void main() {
 //   for (int i = 0; i < 10; i++) {
@@ -127,6 +123,27 @@
 //   print('Total: $total');
 // }
 
-
+// void main() {
+//   String message = "Dart is awesome!";
+//   for (int i = 0; i < message.length; i++) {
+//     print(message[i]);
+//     if (message[i] == 's') {
+//       print("The letter s is found at index $i");
+//       break;
+//     }
+//   }
+// }
+void main() {
+  String message = 'Dart is awesome!';
+  int i = 0;
+  while (i < message.length) {
+    print(message[i]);
+    if (message[i] == 'a') {
+      print("The letter a was found at the index $i");
+      break;
+    }
+    i++;
+  }
+}
 
 
