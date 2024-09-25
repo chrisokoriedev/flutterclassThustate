@@ -42,15 +42,25 @@
 //   }
 //   return 'Hello $title $name!';
 // }
-void connect(
-  String host, {
-  int port = 3306,
-  required String user,
-  required String password,
-}) {
-  print('Connecting to $host on $port using $user/$password...');
-}
+// void connect(
+//   String host, {
+//   int port = 3306,
+//   required String user,
+//   required String password,
+// }) {
+//   print('Connecting to $host on $port using $user/$password...');
+// }
 
-void main() {
-  connect('localhost', user: 'root', password: 'password');
-}
+// void main() {
+//   connect('localhost', user: 'root', password: 'password');
+// }
+
+
+// void main() {
+//   var fn = add;
+//   var result = fn(10, 20);
+//   print(result);
+// }
+// int add(int x, int y) {
+//   return x + y;
+// }
