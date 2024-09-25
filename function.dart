@@ -55,7 +55,6 @@
 //   connect('localhost', user: 'root', password: 'password');
 // }
 
-
 // void main() {
 //   var fn = add;
 //   var result = fn(10, 20);
@@ -64,3 +63,57 @@
 // int add(int x, int y) {
 //   return x + y;
 // }
+// bool isOddNumber(int x) {
+//   return x % 2 != 0;
+// }
+
+// bool isEvenNumber(int x) {
+//   return x % 2 == 0;
+// }
+
+// void calculate(Function fn) {
+//   for (int i = 0; i < 10; i++) {
+//     if (fn(i)) {
+//       print(i);
+//     }
+//   }
+// }
+
+// void main() {
+//   print("Even numbers:");
+//   calculate(isEvenNumber);
+
+//   print("Odd numbers:");
+//   calculate(isOddNumber);
+// }
+
+add(int x, int y) => x + y;
+subtract(int x, int y) => x - y;
+multiply(int x, int y) => x * y;
+divide(int x, int y) => x / y;
+
+calculate(String fn) {
+  if (fn == '+') return add;
+  if (fn == '-') return subtract;
+  if (fn == '*') return multiply;
+  if (fn == '/') return divide;
+  return null;
+}
+
+void main() {
+  var fn;
+  fn = calculate('*');
+  print(fn(3, 2));
+
+  ////////////
+  fn=calculate('/');
+  print(fn(3, 2));
+  //////////////////
+
+  fn=calculate('-');
+  print(fn(3, 2));
+
+  ////////////////////
+  fn=calculate('+');
+  print(fn(3, 2));
+}
