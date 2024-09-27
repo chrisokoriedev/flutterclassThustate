@@ -87,33 +87,45 @@
 //   calculate(isOddNumber);
 // }
 
-add(int x, int y) => x + y;
-subtract(int x, int y) => x - y;
-multiply(int x, int y) => x * y;
-divide(int x, int y) => x / y;
+// add(int x, int y) => x + y;
+// subtract(int x, int y) => x - y;
+// multiply(int x, int y) => x * y;
+// divide(int x, int y) => x / y;
 
-calculate(String fn) {
-  if (fn == '+') return add;
-  if (fn == '-') return subtract;
-  if (fn == '*') return multiply;
-  if (fn == '/') return divide;
-  return null;
-}
+// calculate(String fn) {
+//   if (fn == '+') return add;
+//   if (fn == '-') return subtract;
+//   if (fn == '*') return multiply;
+//   if (fn == '/') return divide;
+//   return null;
+// }
 
-void main() {
-  var fn;
-  fn = calculate('*');
-  print(fn(3, 2));
+// void main() {
+//   var fn;
+//   fn = calculate('*');
+//   print(fn(3, 2));
 
-  ////////////
-  fn=calculate('/');
-  print(fn(3, 2));
-  //////////////////
+//   ////////////
+//   fn=calculate('/');
+//   print(fn(3, 2));
+//   //////////////////
 
-  fn=calculate('-');
-  print(fn(3, 2));
+//   fn=calculate('-');
+//   print(fn(3, 2));
 
-  ////////////////////
-  fn=calculate('+');
-  print(fn(3, 2));
-}
+//   ////////////////////
+//   fn=calculate('+');
+//   print(fn(3, 2));
+// }
+
+
+// void main() {
+//   var multiplier = (int x) {
+//     return (int y) {
+//       return x * y;
+//     };
+//   };
+
+//   var doubleIt = multiplier(2);
+//   print(doubleIt(5)); // 20
+// }
