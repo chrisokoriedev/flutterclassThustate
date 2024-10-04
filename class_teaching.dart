@@ -39,3 +39,22 @@
 // void main() {
 //  Point(0, 10).show();
 // }
+
+// class Point {
+//   int x = 0;
+//   int y = 0;
+//   Point(this.x, this.y);
+//   Point.addData(int x, int y) {
+//     this.x = x;
+//     this.y = y;
+//   }
+//   Point.show() {
+//     print('Point($x,$y)');
+//   }
+// }
+
+// void main() {
+//   Point.addData(10, 20);
+//   Point.show();
+// }
+
