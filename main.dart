@@ -1,7 +1,7 @@
-
-import 'private_field.dart';
+import 'getters_and_setter.dart';
 
 void main() {
- var p1=PointerCal(x: 10, y: 20);
- p1._show();
+  var circle = Circle(10);
+  circle.setterRadius = 100;
+  print(circle.getterRadius);
 }
