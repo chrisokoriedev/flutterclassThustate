@@ -1,12 +1,15 @@
 import 'bank_acct.dart';
 
-class SavingAccount extends BankAcount {
+class SavingAccount extends BankAccount {
   double _interestRate = 0;
-  double _bankInterest = 0.05;
+
+  SavingAccount({
+    double balance = 0,
+    double interestRate = 0,
+  })  : _interestRate = interestRate,
+        super(balance: balance);
 
   double get interestRate => _interestRate;
-  
-  double get BankRate => _bankInterest;
 
   set interestRate(double value) {
     if (value > 0) {

@@ -1,6 +1,8 @@
-class BankAcount {
+class BankAccount {
   double _balance = 0;
 
+  BankAccount({double balance = 0}) : _balance = balance;
+  
   double get balance => _balance;
 
   deposit(double amount) {
