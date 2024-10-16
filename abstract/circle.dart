@@ -5,5 +5,7 @@ class Circle extends Shape {
   Circle({this.radius = 0});
 
   @override
-  double area() => 3.14 * radius * radius;
+  double area() {
+    return 3.14 * radius * radius;
+  }
 }
