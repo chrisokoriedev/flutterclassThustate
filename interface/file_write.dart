@@ -16,15 +16,11 @@ class Console implements Reader, Writter {
   }
 
   @override
-  void write(String message) {
-    print(message);
-  }
+  void write(String message) => print(message);
 }
 
 void main() {
   var console = Console();
   String? input = console.read();
-  if (input != null) {
-    console.write(input);
-  }
+  if (input != null) console.write(input);
 }
